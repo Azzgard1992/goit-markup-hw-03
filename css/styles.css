@@ -28,7 +28,21 @@ body {
   font-size: 14px;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .link {
@@ -77,6 +91,7 @@ body {
 
 .hero {
   background-color: var(--bgc-hero);
+  text-align: center;
 }
 .hero-title {
   color: var(--white-color);
@@ -84,9 +99,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .hero-btn {
   background-color: var(--accent-color);
@@ -99,6 +117,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -114,6 +136,9 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 .features-title {
   color: var(--secondary-text-color);
@@ -122,9 +147,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .features-text {
   line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Примеры */
@@ -137,6 +167,9 @@ body {
 .team-title {
   color: var(--secondary-text-color);
 
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -144,6 +177,9 @@ body {
 .team-text {
   font-size: 16px;
   line-height: 1.19;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Подвал */
@@ -159,16 +195,23 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 .footer-list {
   font-style: normal;
   line-height: 1.71;
+
+  padding-bottom: 60px;
 }
+
 .footer-list .link {
   color: var(--footer-link-color);
 }
-.page-footer .link:hover,
-.page-footer .link:focus {
+.page-footer .footer-link:hover,
+.page-footer .footer-link:focus {
   color: var(--accent-color);
 }
 
@@ -183,6 +226,9 @@ body {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 .work-btn:hover,
 .work-btn:focus {
@@ -197,10 +243,16 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .work-text {
   color: var(--main-text-color);
 
   font-size: 16px;
   line-height: 1.87;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
